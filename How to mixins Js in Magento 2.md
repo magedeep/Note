@@ -44,3 +44,37 @@ define([
     }
 });
 ```
+Example two is mixins with js component:
+
+requirejs-config.js
+```js
+var config = {
+    config: {
+        mixins: {
+            'Magento_Theme/js/view/messages': {
+                'Vendor_Module/js/message-mixin': true
+            }
+        }
+    }
+};
+```
+message-mixin.js
+```js
+define([
+    'jquery',
+    'mage/utils/wrapper'
+], function ($, wrapper) {
+    'use strict';
+
+    return function (messages) {
+        return wrapper.wrap(messages, function (original) {
+            var originalInit = original();
+            
+            //do something
+
+            return originalInit;
+        });
+    };
+});
+```
+
