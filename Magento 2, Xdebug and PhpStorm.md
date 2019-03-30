@@ -1,5 +1,5 @@
-This is tutorial about:
-- How to config Phpstorm working with Xdebug
+This tutorial is about:
+- How to config Phpstorm to work with Xdebug
 - how to set breakpoints and debug Magento 2
 
 I am using LEMP stack.
