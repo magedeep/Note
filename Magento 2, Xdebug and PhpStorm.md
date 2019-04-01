@@ -17,7 +17,7 @@ Add Configuration > Add New Configuration > PHP Web Page
 
 ![phpstorm_config](https://user-images.githubusercontent.com/5145257/55270197-c5654600-52ce-11e9-9e52-9d65d32ea517.png)
 
-> Create Server 
+Create Server 
 ![Screenshot from 2019-03-30 09-35-32](https://user-images.githubusercontent.com/5145257/55270240-3a388000-52cf-11e9-8a5b-e6fa404fd4c0.png)
 
 That is done for configuration Xdebug and Phpstorm. Next step how to set breakpoints and debug Magento 2
